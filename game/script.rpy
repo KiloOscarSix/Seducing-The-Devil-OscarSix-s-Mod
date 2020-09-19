@@ -3,7 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-
+# WELCOME PORTAYA!
 define config.version = "0.9"
 
 define patch = renpy.loadable("patch.rpy")
