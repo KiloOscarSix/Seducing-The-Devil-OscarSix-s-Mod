@@ -29,8 +29,8 @@ screen modWalkthroughOptions():
             spacing 50
             style_prefix "check"
 
-            textbutton "Amy's Paths":
-                action [ToggleVariable("AmyPath", true_value="{color=#0f0}[Amy Path]", false_value=""), ToggleVariable("AmyLovePath", true_value="{color=#0f0}[Amy Love Path]", false_value=""), ToggleVariable("AmySubPath", true_value="{color=#0f0}[Amy Sub Path]", false_value="")]
+            textbutton "Harem Path":
+                action ToggleVariable("HaremPath", true_value="{color=#0f0}[Harem Path]", false_value="")
 
     textbutton _("Return") action Hide("modWalkthroughOptions"):
         text_font "gui/PoiretOne-Regular.ttf"
