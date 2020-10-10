@@ -1,2 +1,2 @@
-# Seducing-The-Devil OscarSix's Mod
+# Seducing-The-Devil Mod
  

@@ -24,7 +24,7 @@ screen modOutOfDate:
 
 label before_main_menu:
 
-    # if updateChecker():
-    #     call screen modOutOfDate
+    if updateChecker():
+        call screen modOutOfDate
 
     return

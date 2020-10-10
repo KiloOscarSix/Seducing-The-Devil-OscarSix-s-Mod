@@ -221,7 +221,7 @@ class HTTPAdapter(BaseAdapter):
                 cert_loc = verify
 
             if not cert_loc:
-                cert_loc = extract_zipped_paths(DEFAULT_CA_BUNDLE_PATH)
+                cert_loc = extract_zipped_paths(os.path.join(os.getcwd(), "game", "python-packages", "certifi", "cacert.pem"))
 
             if not cert_loc or not os.path.exists(cert_loc):
                 raise IOError("Could not find a suitable TLS CA certificate bundle, "
