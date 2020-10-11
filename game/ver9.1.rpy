@@ -74,7 +74,7 @@ label ellaonly:
     M "How about another round honey?"
 
     L "I don't mind *giggle*"
-
+    $ renpy.end_replay()
     scene blackscreen with Dissolve (1.0)
 
     pause
@@ -554,7 +554,7 @@ label kylierileyaccept:
     K "*giggle* You came so much.."
 
     R "We are covered in your thick cum *giggle*"
-
+    $ renpy.end_replay()
     scene blackscreen with Dissolve (1.0)
 
     pause
@@ -1002,7 +1002,7 @@ label dinner118:
     pause
 
 menu:
-    
+
     "Reject Selina [red]\[Ends Relationship\]":
 
         $ rejectselina = "yes"
@@ -1343,12 +1343,12 @@ label selinaaccept119:
 
             S "Took you so long mom.."
 
-        if renpy.loadable("patch.rpy") or patch:
+        if not renpy.loadable("patch.rpy") or patch:
 
             S "Took you so long Veronica.."
 
         A "WHAT?!!"
-
+        $ renpy.end_replay()
         scene blackscreen with Dissolve (1.0)
 
         pause

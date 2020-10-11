@@ -431,7 +431,7 @@ label jerktoella:
     A "(I feel less stressed but then again... sigh..)"
 
     A "(Think I should finish my shower fast. Adam's waiting. I need to know what's he planning)"
-
+    $ renpy.end_replay()
     jump showerend
 
 
@@ -1114,7 +1114,7 @@ label alanpeekselina2:
     "You get ready and head to Diana's."
 
     "No time for breakfast."
-
+    $ renpy.end_replay()
     jump visitdiana
 
 
@@ -1468,7 +1468,7 @@ label alanleaveselina :
     A "(What am I thinking?!)"
 
     A "Yeah sure Veronica.."
-
+    label galleryScene16:
     scene scene_27-26 with Dissolve (1.0)
 
     V "But don't think of doing any funny business while staying at my house..."
@@ -1775,7 +1775,7 @@ label forcemouthcum:
     # Scene 28
 
 label visitdiana:
-
+    $ renpy.end_replay()
     if calldiana == "none":
 
         scene scene_28-1 with Dissolve (1.0)
@@ -2887,7 +2887,7 @@ label stayriley:
 
     R "mmhmmmm..."
 
-
+    $ renpy.end_replay()
     scene scene_31-53 with Dissolve (1.0)
 
     "You say your goodbyes and head to Veronica's home."
@@ -3693,5 +3693,5 @@ label Kyliefirstsexend:
     K "Okay.. See you again. **mwah**"
 
     A "(Time to head to Veronica's house)"
-
+    $ renpy.end_replay()
     jump verselhouse

@@ -595,7 +595,7 @@ label tana131accept:
     scene 131-28 with Dissolve (1.0)
 
     T "Listen to me [player_name].."
-
+    $ renpy.end_replay()
     scene blackscreen with Dissolve (1.0)
 
     pause
@@ -1064,7 +1064,7 @@ label scene132:
 # Scene 134
 
     # Sex with Selina and Madison Ella watch
-
+    label galleryScene13:
     scene 134-1 with Dissolve (1.0)
 
     pause
@@ -1573,7 +1573,7 @@ label scene132:
         scene 134-47 with Dissolve (1.0)
 
         pause
-
+        $ renpy.end_replay()
 
 
     jump endingcredits

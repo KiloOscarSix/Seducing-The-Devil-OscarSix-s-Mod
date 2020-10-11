@@ -1370,7 +1370,7 @@ label jasonhospitalcafe:
 
 # Ella bdsm scene 1
 
-
+    label galleryScene17:
     scene scene_73-1 with Dissolve (1.0)
 
     pause
@@ -1744,7 +1744,7 @@ label madisonfistella:
 
 
 label lilithheaddown:
-
+    $ renpy.end_replay()
     scene scene_73-37 with Dissolve (1.0)
 
     L "*I need someone to help me.. I really need someone.

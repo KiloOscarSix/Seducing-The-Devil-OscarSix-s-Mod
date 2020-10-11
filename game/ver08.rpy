@@ -789,7 +789,7 @@ label cherryleftday1:
     scene blackscreen with Dissolve (1.0)
 
     pause
-
+    label galleryScene3:
     scene 88-15 with Dissolve (1.0)
 
     "....."
@@ -979,7 +979,7 @@ label cherryleftday1:
     A "I love you too Selina.."
 
     A "(What was that?!)"
-
+    $ renpy.end_replay()
     scene blackscreen with Dissolve (1.0)
 
     pause
@@ -1606,7 +1606,7 @@ label cathygloryblow:
        The next time a girl blows you, you'll left fucking disappointed. hehe)"
 
     A "(Man she is a pro!! I better leave)"
-
+    $ renpy.end_replay()
     jump veronicatheatre
 
 
@@ -1950,7 +1950,7 @@ label veronicatheatre:
 
     A "I can't wait to meet you Ella.
        These 2 years have been amazing with you but nothing can top being together in real life."
-
+    label galleryScene4:
     scene 92-10 with Dissolve (1.0)
 
     S "........"
@@ -2100,7 +2100,7 @@ label veronicatheatre:
     A "Girl you are so freaking wild and I love you so much.."
 
     S "Love you too babe."
-
+    $ renpy.end_replay()
     scene blackscreen with Dissolve (1.0)
 
     pause
@@ -3028,7 +3028,7 @@ label veronicatheatre:
     scene blackscreen with Dissolve (1.0)
 
     pause
-
+    label galleryScene5:
 # Scene 99
 
 # Seduced by Selina
@@ -3231,7 +3231,7 @@ label veronicatheatre:
     A "It's okay. Everything's fine. Don't cry."
 
     S "*sniff* *sniff*"
-
+    $ renpy.end_replay()
     scene blackscreen with Dissolve (1.0)
 
     pause
@@ -3580,7 +3580,7 @@ label veronicatheatre:
     scene blackscreen with Dissolve (1.0)
 
     pause
-
+    label galleryScene6:
     scene 102-5 with Dissolve (1.0)
 
     A "Selina.. Are you there?"
@@ -3862,7 +3862,7 @@ label veronicatheatre:
     A "You wanted that huh?"
 
     S "Maybe *giggle*"
-
+    $ renpy.end_replay()
     scene blackscreen with Dissolve (1.0)
 
     pause
@@ -4044,7 +4044,7 @@ label veronicatheatre:
 # Scene 105
 
 # Kylie family orgy
-
+    label galleryScene7:
     scene 105-1 with Dissolve (1.0)
 
     A "(What again?)"
@@ -4180,11 +4180,11 @@ label veronicatheatre:
     A "You can't be serious..!!"
 
     K "No more questions.."
-
+    $ renpy.end_replay()
     scene blackscreen with Dissolve (1.0)
 
     pause
-
+    label galleryScene8:
     scene 105-13 with Dissolve (1.0)
 
     pause (2.0)
@@ -4408,12 +4408,12 @@ label veronicatheatre:
     "You spend the rest of your vacation in that hotel room"
 
     "Drunk or sober, nothing changes"
-
+    $ renpy.end_replay()
 
 # Scene 106
 
 # Cherry's full arrival and Mom
-
+    label galleryScene9:
 
     scene 105-1 with Dissolve (1.0)
 
@@ -4598,7 +4598,7 @@ label veronicatheatre:
     scene 106-12 with Dissolve (1.0)
 
     D "*mwah*"
-
+    $ renpy.end_replay()
     scene white with dissolve
     $ renpy.pause(0.7, hard = True)
 
@@ -5467,7 +5467,7 @@ label nomassage:
 # Back to present
 
     # Mentioin Rachel's death after sex
-
+    label galleryScene10:
     scene 110-1 with Dissolve (1.0)
 
     A "Did you lock the door?"
@@ -5660,7 +5660,7 @@ label nomassage:
     A "(Tomorrow is a big day. So many decisions to make. Selina and Veronica won't be pleased with me at all)"
 
     A "(But..)"
-
+    $ renpy.end_replay()
     scene 110-18 with Dissolve (1.0)
 
     A "(I want to see my Ella. I've waited 2 years for this.

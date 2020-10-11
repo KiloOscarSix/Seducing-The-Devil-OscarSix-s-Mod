@@ -884,7 +884,7 @@ label door6:
         A "I better go and put something on.."
 
         MO "Sure honey.."
-
+        $ renpy.end_replay()
         scene scene_55-24 with Dissolve (3.0)
 
         DA "WHERE THE FUCK WERE YOU?!"
@@ -3798,5 +3798,5 @@ label veronicacumshot1:
     scene scene_64-67 with Dissolve (2.0)
 
     with hpunch
-
+    $ renpy.end_replay()
     jump alandevilbathroomencounter

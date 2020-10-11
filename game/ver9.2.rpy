@@ -65,7 +65,7 @@ label elselver:
     R "*giggle*"
 
     K "Now make me cum..aaahhhh..."
-
+    $ renpy.end_replay()
     scene blackscreen with Dissolve (1.0)
 
     pause
@@ -303,7 +303,7 @@ label elselver:
 # Scene 124
 
 # Sex with Cherry
-
+    label galleryScene11:
     scene 124-1 with Dissolve (1.0)
 
     "Cherry moaning with pleasure"
@@ -447,7 +447,7 @@ label elselver:
     D "Don't forget to wash yourself. You are covered with your own semen *giggle*"
 
     # don't forget to wash your hand
-
+    $ renpy.end_replay()
     scene blackscreen with Dissolve (1.0)
 
     "Night time"
@@ -815,7 +815,7 @@ label dinner125:
 # Scene 126
 
 # Selina/Riley or Selina/Kylie sex
-
+    label galleryScene12:
     scene 126-1 with Dissolve (1.0)
 
     A "Could have been worse.. But you were there to make it amazing.."
@@ -1139,7 +1139,7 @@ label dinner125:
             S "I love you too [player_name].."
 
             A "I love you both.."
-
+            $ renpy.end_replay()
             scene blackscreen with Dissolve (1.0)
 
             pause

@@ -865,7 +865,7 @@ label alancallella:
     if not renpy.loadable("patch.rpy"):
 
         E "OH GOD!!! MADDY!!! UUnnnghhh...mmmmm...yesssss..."
-
+    $ renpy.end_replay()
     scene scene_43-31 with Dissolve (1.0)
 
     A "(I'm sorry for lying to you Ella.. But it's better if you don't know)"
