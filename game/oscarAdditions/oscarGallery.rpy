@@ -11,13 +11,13 @@ define galleryPageNumber = 1
 
 define sceneGalleryMenuDict = {
     "galleryMenu": [
-    ["Selina", "/images/1-6.webp"],
-    ["The Devil", "/images/1-6.webp"],
-    ["Kylie", "/images/1-6.webp"],
-    ["Riley", "/images/1-6.webp"],
-    ["Ella", "/images/1-6.webp"],
-    ["Veronica", "/images/1-6.webp"],
-    ["Other", "/images/1-6.webp"],
+    ["Selina", "/images/10-16.webp"],
+    ["The Devil", "/images/18-10.webp"],
+    ["Kylie", "/images/105-5.webp"],
+    ["Riley", "/images/116-2.webp"],
+    ["Ella", "/images/scene_68-3.webp"],
+    ["Veronica", "/images/scene_69-2.webp"],
+    ["Other", "/images/91-27.webp"],
     ],
     "Selina": {
     1: [
