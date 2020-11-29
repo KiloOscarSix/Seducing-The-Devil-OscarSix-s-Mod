@@ -19,6 +19,7 @@ init python:
     LillyTagTeam = "{color=#0f0}[Lilly Tag Team Path]"
     DalesPath = "{color=#0f0}[The Dales Path]"
     SistersPath = "{color=#0f0}[The Sisters Path]"
+    RileyPath = "{color=#0f0}[Riley Path]"
 
 screen modWalkthroughOptions():
     tag menu
